@@ -1,5 +1,7 @@
 const formulario = document.querySelector(".formulario-fale-conosco")
+
 const mascara = document.querySelector(".mascara-formulario")
+
 
 
 
@@ -13,5 +15,9 @@ function esconderFormulario ()  {
     formulario.style.left = "-300px"
     mascara.style.visibility = "hidden"
 }
+
+
+
+
 
 
