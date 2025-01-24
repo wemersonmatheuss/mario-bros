@@ -157,3 +157,42 @@ textarea {
 
 
 */
+
+@media (max-width:  1100px) {
+    p {
+        display: none;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .caixa-principal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagem-mario-luigi {
+        width: 80vw;
+        height: auto;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .header a {
+        font-size: 20px;
+    }
+}
+
